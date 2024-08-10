@@ -21,3 +21,7 @@ function Protected({children, authentication = true}) {
 }
 
 export default Protected;
+
+
+//Here we have created a protected component which will take authentication into account with the help of either the store
+// or props passed by the user it will check them and then it will render the element inside the component
