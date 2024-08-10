@@ -11,7 +11,7 @@ function Select(
         <div className='w-full'>
             {label && <label htmlFor={id} className=''></label>}
             <select
-            {..props}
+            {...props}
             id={id}
             ref= {ref}
             className={`px-2 py-2 rounded-lg bg-white text-black outline-none
