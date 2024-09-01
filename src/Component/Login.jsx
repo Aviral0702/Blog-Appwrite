@@ -3,7 +3,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import { login as authLogin } from '../store/authSlice'
 import {Button, Input, Logo} from "./index"
 import {useDispatch} from "react-redux"
-import authService from "../appwrite/auth"
+import authService from "../Appwrite/auth"
 import {useForm} from "react-hook-form"
 
 export default function Login() {
@@ -79,5 +79,3 @@ export default function Login() {
     </div>
   )
 }
-
-export default Login
